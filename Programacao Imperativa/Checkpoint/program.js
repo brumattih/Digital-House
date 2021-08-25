@@ -44,11 +44,8 @@ function microondas(tempo, receita) {
 
     let respostaReceita = user.question("Pressione Enter para confirmar ou digite outra tecla qualquer caso deseja alterar o tempo: ");
 
-    if (respostaReceita == "")
-        return console.log(`Finalizado em ${tempo} segundos. ${finaliza}`);
-    else {
-        calculaTempoDeCozimento(tempo);
-    }
+    return respostaReceita == "" ? console.log(`Finalizado em ${tempo} segundos. ${finaliza}`) : calculaTempoDeCozimento(tempo);
+
 }
 
 menu();
