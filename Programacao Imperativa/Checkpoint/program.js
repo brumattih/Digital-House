@@ -20,7 +20,7 @@ function menu() {
         case 4: console.clear(); microondas(12, "feijao"); break;
         case 5: console.clear(); microondas(8, "brigadeiro"); break;
 
-        default: console.log("Opção inválida, Pressione Enter para continuar"); break;
+        default: console.log("Prato inexistente"); break;
     }
 }
 
