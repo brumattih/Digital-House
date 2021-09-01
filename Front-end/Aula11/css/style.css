@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    height: 1000px;
+  }
+
+  .box {
+    width: 150px;
+    height: 150px;
+    padding: 40px;
+    border: black 5px solid;
+    background-color: honeydew;
+    font-size: 50px;
+    text-align: center;
+    
+  }
+  
+  .content{
+    border: gainsboro 5px solid;
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    font-size: 30px;
+    align-items: center;
+  }
+  
+  .absolute {
+    position: absolute;
+    top: 0px;
+  }
+
+  #div1 {
+    left: 0px;
+  }
+
+  #div3 {
+    right: 0px;
+  }
+  
+  .fixed {
+    position: fixed;
+    bottom: 0px;
+    left: 50%;
+  }
+  
