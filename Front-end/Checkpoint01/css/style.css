@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto:wght@500&display=swap');
+
+body {
+    height: 100%;
+    margin: 0;
+    background-color: rgb(198, 243, 245);
+
+  }
+
+header{
+    font-family: Roboto;
+    color: #f0f8ff;
+    height: 200px;
+    width: 100%;
+}
+
+p{
+  font-family: Montserrat;
+  color: rgba(19, 11, 1, 0.925);
+  padding-left: 1%;
+
+}
+
+.bg{
+    padding-left: 10px;
+    background-size: cover;
+    background-image: url(../img/sa02.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+
+.video{
+  width: 1280px;
+  height: 720px; 
+}
+
+.curiosidades{
+  font-family: Montserrat;
+}
