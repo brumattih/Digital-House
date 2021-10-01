@@ -24,5 +24,3 @@ function Curso(paramNomeCurso, paramNotaAprovacao, paramFaltasMaximas, paramList
 }
 
 matematica = new Curso("Matemática", 6, 3, alunos);
-
-

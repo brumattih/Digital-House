@@ -1,0 +1,17 @@
+#p1::first-letter {
+    color: blueviolet;
+    font-size: 30px;
+  }
+
+  button:disabled {
+    background-color: gray;
+    color: whitesmoke;
+  }
+
+  button{
+      background-color: darkblue;
+  }
+
+#p2:active{
+    background-color: darkgoldenrod;
+}
